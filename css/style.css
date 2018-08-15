@@ -1,0 +1,40 @@
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 97vh;
+    background: #568c80;
+}
+
+.field {
+    padding: 30px;
+    width: 320px;
+    min-height: 440px;
+    background: #d6dedc;
+    color: #676767;
+    border-radius: 25px;
+    box-shadow: -5px 5px #c6cac9 inset;
+    font: 300 26px/1.0 'Arial','sans-serif';
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    position: relative;
+}
+
+.field:hover::before {
+    content: "press Ctrl + E to start editing";
+    position: absolute;
+    color: #888888;
+    bottom: 11px;
+    left: 125px;
+    font: 300 10px/1.0 'Arial','sans-serif';
+}
+
+.text-area-field {
+    outline: none;
+    resize: none;
+    background: #f2fbf9;
+    box-shadow: -5px 5px #eaeaea inset;
+}
+
